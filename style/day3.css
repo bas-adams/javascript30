@@ -1,0 +1,36 @@
+/* day3 css*/
+:root{
+	--spacing: 10px;
+	--blur: 5px;
+	--base: #ffc600;
+}
+
+body{
+	text-align: center;
+	background: #194349;
+	font-family: Verdana;
+	font-size: 25px;
+	color: gold
+}
+
+.controls{
+	margin-bottom: 20px;
+	display:flex;
+	flex-direction: column;
+
+}
+
+.h1{
+	color: var(--base);
+}
+input{
+	width:100px;
+}
+img{
+	width: 640px;
+	background-color: var(--base);
+	padding: var(--spacing);
+	filter: blur(var(--blur));
+	box-sizing: border-box;
+}
+
